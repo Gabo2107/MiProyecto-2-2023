@@ -13,6 +13,7 @@
 }
 #cabeceraMenu{
     flex: 70%;
+    
 }
 #imagenRedondo{
     width: 150px;
@@ -20,12 +21,17 @@
     background-color: white;
     border-radius: 75px;
     position: relative;
-    z-index: 100;
-    margin-bottom: 30px;
+    z-index: 1000;
+    margin-bottom: 4px;
+    left: 5%;
+    background-image: url(../img/Recurso\ 8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 #nombreRectangulo{
     background-color: #013334;
-    width: 300px;
+    width: 180px;
     padding: 20px;
     color: white;
     text-transform: uppercase;
@@ -38,6 +44,8 @@
     height: 500px;
     border: 1px solid black;
     background-color: #D3EE9F;
+    display: flex;
+    
 }
 footer{
     width: 100%;
@@ -45,3 +53,23 @@ footer{
     border: 1px solid black;
     
 }
+
+ul li{
+    display: inline;
+     padding:0 10px;
+     border-right: solid 2px black;
+}
+ul li a{
+    color: #550101;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+ul li a:hover{
+    color: #a3b9b9;
+    font-size: 17px;
+    text-decoration: underline dashed 2px rgb(193, 146, 236);
+    background-color: #00ecec;
+}
+
