@@ -24,7 +24,7 @@
     z-index: 1000;
     margin-bottom: 4px;
     left: 5%;
-    background-image: url(../img/Recurso\ 8.png);
+    background-image: url("/img/Recurso\ 8.png");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -89,7 +89,7 @@ ul li a:hover{
     background-color: #d46b68;
     padding: 25px;
     text-align: center;
-    width: 70%;
+    width: 75%;
   border-radius: 25px;
     
 }
@@ -101,4 +101,33 @@ h1{
     font-weight: bold;
     padding-bottom: 20px;
     text-transform: uppercase;
+}
+#DetalleDatos{
+    width: 70%;
+    padding: 20px;
+}
+#Botones{
+    display: flex;
+    margin-top: 20px;
+}
+#BotonFavorito{
+    flex: 50%;
+}
+#BotonUbicación{
+    flex: 50%;
+}
+#marcoFavorito{
+    background-color: #cccccc;
+    width: 250px;
+    background-image: url("/img/Recurso\ 13.png");
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 20px 0px 20px 60px;
+    background-position: left 20px center;
+    border-radius: 18px;
+    
+}
+#marcoFavorito:hover{
+    opacity: 70%;
+    cursor: pointer;
 }
